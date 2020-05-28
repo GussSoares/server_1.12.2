@@ -1,103 +1,133 @@
-[19:28:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:28:29] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
-[19:28:29] [main/INFO] [FML]: Java is Eclipse OpenJ9 VM, version 1.8.0_252, running on Linux:amd64:4.14.138+, installed at /home/gitpod/.sdkman/candidates/java/8.0.252.j9-adpt/jre
-[19:28:29] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
-[19:28:29] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
-[19:28:29] [main/INFO] [FML]: Searching /workspace/server_1.12.2/./mods for mods
-[19:28:29] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine-1.12.2_HD_U_F4.jar
-[19:28:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:28:29] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[19:28:29] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[19:28:29] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[19:28:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:28:32] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[19:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:28:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:28:33] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[19:28:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[19:28:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[19:28:37] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
-[19:28:37] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:28:37] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[19:28:37] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[19:28:37] [Server thread/INFO] [FML]: Searching /workspace/server_1.12.2/./mods for mods
-[19:28:38] [Server thread/WARN] [FML]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[19:28:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
-[19:28:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[19:28:41] [Server thread/WARN] [FML]: Missing English translation for craftablehorsearmour: assets/craftablehorsearmour/lang/en_us.lang
-[19:28:41] [Server thread/WARN] [FML]: Missing English translation for petbuddy: assets/petbuddy/lang/en_us.lang
-[19:28:41] [Server thread/WARN] [FML]: Missing English translation for subcommonlib: assets/subcommonlib/lang/en_us.lang
-[19:28:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, damageindicatorsmod, bspkrscore, treecapitator, blocklings, craftablehorsearmour, dmonsters, gargoyles, jei, journeymap, petbuddy, petbat, subcommonlib, wearablebackpacks] at CLIENT
-[19:28:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, damageindicatorsmod, bspkrscore, treecapitator, blocklings, craftablehorsearmour, dmonsters, gargoyles, jei, journeymap, petbuddy, petbat, subcommonlib, wearablebackpacks] at SERVER
-[19:28:42] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:28:42] [Server thread/INFO] [FML]: Found 1174 ObjectHolder annotations
-[19:28:42] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:28:42] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:28:42] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:28:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:28:42] [Server thread/INFO] [treecapitator]: Proceeding to load tree/mod configs from file.
-[19:28:42] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
-[19:28:43] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:43] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:43] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:43] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:43] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:43] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:43] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:43] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:43] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:28:43] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[19:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[19:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[19:28:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[19:28:43] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[19:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:28:43] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:28:43] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:43] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:43] [Server thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod bspkrscore
-[19:28:44] [Server thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/bspkrsCore.version! Defaulting to check_error
-[19:28:44] [Server thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod TreeCapitator
-[19:28:44] [Server thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/TreeCapitator.version! Defaulting to check_error
-[19:28:44] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:28:44] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:28:44] [Server thread/INFO] [treecapitator]: Prioritizing User and IMC mod configs...
-[19:28:44] [Server thread/INFO] [treecapitator]: Registering items and trees...
-[19:28:44] [Server thread/INFO] [treecapitator]: Skipping Ore Dictionary processing.
-[19:28:44] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
-[19:28:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[19:28:44] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:28:44] [Server thread/INFO] [FML]: Applying holder lookups
-[19:28:44] [Server thread/INFO] [FML]: Holder lookups applied
-[19:28:45] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@2bcc52c)
-[19:28:45] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTableManager]: Couldn't find resource table dmonsters:zombiechicken
-[19:28:45] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[19:28:45] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@2bcc52c)
-[19:28:45] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@2bcc52c)
-[19:28:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[19:28:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[19:28:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 61%
-[19:28:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.770s)! For help, type "help" or "?"
-[19:28:48] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:28:48] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:28:57] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
-[19:28:57] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 18 mods : minecraft@1.12.2,petbuddy@$version,FML@8.0.99.99,bspkrscore@7.6.0.1,jei@4.15.0.291,damageindicatorsmod@1.0,tlauncher_custom_cape_skin@1.4,blocklings@6.0.1,dmonsters@1.7,petbat@1.4.8,craftablehorsearmour@1.3,forge@14.23.5.2847,gargoyles@1,subcommonlib@1.2.0.1,mcp@9.42,treecapitator@1.43.0,wearablebackpacks@3.1.3,journeymap@1.12.2-5.7.1
-[19:28:57] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
-[19:28:58] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:28:58] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: gustavo5855[/127.0.0.1:47866] logged in with entity id 320 at (-220.4875024759237, 63.0, -0.6468970202216805)
-[19:28:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gustavo5855 joined the game
-[19:30:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [gustavo5855: Set the time to 1000]
-[19:31:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: gustavo5855 was slain by Mutant Steve
-[19:31:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [gustavo5855: Game rule keepInventory has been updated to true]
-[19:33:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [gustavo5855: Game rule modGriefing has been updated to false]
+[20:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[20:44:35] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2847 for Minecraft 1.12.2 loading
+[20:44:35] [main/INFO] [FML]: Java is Eclipse OpenJ9 VM, version 1.8.0_252, running on Linux:amd64:4.14.138+, installed at /home/gitpod/.sdkman/candidates/java/8.0.252.j9-adpt/jre
+[20:44:35] [main/WARN] [FML]: The coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin) is not signed!
+[20:44:35] [main/WARN] [FML]: The coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin) is not signed!
+[20:44:35] [main/INFO] [FML]: Searching /workspace/server_1.12.2/./mods for mods
+[20:44:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:44:35] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:44:35] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[20:44:35] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in future-mc-1.12.2-0.2.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:44:35] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[20:44:35] [main/WARN] [FML]: The coremod com.thiakil.gottagofast.coremod.GottaGoFastLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:44:35] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine-1.12.2_HD_U_F4.jar
+[20:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[20:44:35] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[20:44:35] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[20:44:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:44:37] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[20:44:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:44:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:44:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:44:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:44:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:44:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:44:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:44:38] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[20:44:38] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[20:44:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[20:44:41] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2847 Initialized
+[20:44:41] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:44:41] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:44:41] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:44:41] [Server thread/INFO] [FML]: Searching /workspace/server_1.12.2/./mods for mods
+[20:44:42] [Server thread/WARN] [FML]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[20:44:42] [Server thread/INFO] [FML]: Disabling mod neat it is client side only.
+[20:44:42] [Server thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for gottagofast: assets/gottagofast/lang/en_us.lang
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for craftablehorsearmour: assets/craftablehorsearmour/lang/en_us.lang
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for forgelin: assets/forgelin/lang/en_us.lang
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for petbuddy: assets/petbuddy/lang/en_us.lang
+[20:44:42] [Server thread/WARN] [FML]: Missing English translation for subcommonlib: assets/subcommonlib/lang/en_us.lang
+[20:44:42] [Server thread/INFO] [FML]: FML has found a non-mod file Neat_1.12.2.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:44:43] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gottagofast, damageindicatorsmod, bspkrscore, treecapitator, blocklings, craftablehorsearmour, dmonsters, forgelin, futuremc, gargoyles, jei, journeymap, petbuddy, petbat, subcommonlib, wearablebackpacks] at CLIENT
+[20:44:43] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gottagofast, damageindicatorsmod, bspkrscore, treecapitator, blocklings, craftablehorsearmour, dmonsters, forgelin, futuremc, gargoyles, jei, journeymap, petbuddy, petbat, subcommonlib, wearablebackpacks] at SERVER
+[20:44:44] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[20:44:45] [Server thread/INFO] [FML]: Found 1174 ObjectHolder annotations
+[20:44:45] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:44:45] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:44:45] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:44:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:44:45] [Server thread/INFO] [treecapitator]: Proceeding to load tree/mod configs from file.
+[20:44:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[20:44:45] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:45] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:45] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:45] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:45] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:45] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:45] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:45] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:45] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:44:45] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:44:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[20:44:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[20:44:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[20:44:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[20:44:46] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[20:44:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:44:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[20:44:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:44:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:44:47] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:47] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:47] [Server thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod bspkrscore
+[20:44:47] [Server thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/bspkrsCore.version! Defaulting to check_error
+[20:44:47] [Server thread/INFO] [bspkrscore]: Initializing ModVersionChecker for mod TreeCapitator
+[20:44:47] [Server thread/WARN] [bspkrscore]: Error retrieving remote string value at URL http://bspk.rs/Minecraft/1.12/TreeCapitator.version! Defaulting to check_error
+[20:44:47] [Server thread/INFO] [FML]: Injecting itemstacks
+[20:44:47] [Server thread/INFO] [FML]: Itemstack injection complete
+[20:44:47] [Server thread/INFO] [treecapitator]: Prioritizing User and IMC mod configs...
+[20:44:47] [Server thread/INFO] [treecapitator]: Registering items and trees...
+[20:44:47] [Server thread/INFO] [treecapitator]: Skipping Ore Dictionary processing.
+[20:44:47] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 20 mods
+[20:44:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[20:44:48] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:44:48] [Server thread/INFO] [FML]: Applying holder lookups
+[20:44:48] [Server thread/INFO] [FML]: Holder lookups applied
+[20:44:48] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@fbb2d614)
+[20:44:48] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTableManager]: Couldn't find resource table dmonsters:zombiechicken
+[20:44:48] [Server thread/ERROR] [net.minecraft.advancements.AdvancementManager]: Parsing error loading built-in advancement minecraft:recipes/decorations/nether_brick_fence
+com.google.gson.JsonSyntaxException: Unknown recipe 'minecraft:nether_brick_fence'
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:171) ~[l$a.class:?]
+	at net.minecraft.advancements.AdvancementRewards$Deserializer.deserialize(AdvancementRewards.java:147) ~[l$a.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[Gson.class:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[Gson.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[TreeTypeAdapter$GsonContextImpl.class:?]
+	at net.minecraft.util.JsonUtils.func_188179_a(SourceFile:439) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_188177_a(SourceFile:455) ~[rc.class:?]
+	at net.minecraft.advancements.Advancement$Builder.func_192059_a(SourceFile:203) ~[i$a.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:50) ~[ns$1.class:?]
+	at net.minecraft.advancements.AdvancementManager$1.deserialize(AdvancementManager.java:46) ~[ns$1.class:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[TreeTypeAdapter.class:?]
+	at net.minecraft.util.JsonUtils.func_188173_a(SourceFile:492) ~[rc.class:?]
+	at net.minecraft.util.JsonUtils.func_193839_a(SourceFile:532) ~[rc.class:?]
+	at net.minecraft.advancements.AdvancementManager.func_192777_a(AdvancementManager.java:184) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.func_192779_a(AdvancementManager.java:68) [ns.class:?]
+	at net.minecraft.advancements.AdvancementManager.<init>(AdvancementManager.java:60) [ns.class:?]
+	at net.minecraft.world.WorldServer.func_175643_b(WorldServer.java:156) [oo.class:?]
+	at net.minecraft.server.MinecraftServer.func_71247_a(MinecraftServer.java:298) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:270) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:821) [?:1.8.0_252]
+[20:44:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 487 advancements
+[20:44:49] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@fbb2d614)
+[20:44:49] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@fbb2d614)
+[20:44:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:44:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[20:44:50] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:wolf that already exists with UUID 98c5d829-c07a-4165-876e-8ddb1ee569cc
+[20:44:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%
+[20:44:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:chicken that already exists with UUID df047a58-e171-4f28-be8c-1f26fe74d381
+[20:44:51] [Server thread/WARN] [net.minecraft.world.WorldServer]: Keeping entity minecraft:pig that already exists with UUID fc04a204-d924-4e35-b787-fcc320c99783
+[20:44:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.554s)! For help, type "help" or "?"
+[20:44:52] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:44:52] [Server thread/INFO] [FML]: Unloading dimension 1
